@@ -1,0 +1,29 @@
+.round-orange-button {
+    background-color: orange;
+    border: none;
+    border-radius: 20px;
+    width: 100px; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px; 
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .round-orange-button:hover {
+    background-color: darkorange; 
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 150px;
+    gap: 30px;
+  }
+  

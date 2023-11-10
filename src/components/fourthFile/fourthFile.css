@@ -1,0 +1,267 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+} */
+
+.fourthFileFile{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.swapFileFile{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swapFileFileFirst{
+
+    width: 50%;
+    margin:48px 0 0 175px;
+}
+.swapFileFileImg{
+    /* width: 370px;
+    height: 523px; */
+    margin: 50px 0;
+}
+.contentDivFile {
+    position: relative;
+    width: 50%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* gap: 60px; */
+    /* margin: 30px 0 0 20px; */
+    margin: 200px 0 0 0 ;
+    padding: 0 0 0 100px;
+
+
+}
+
+
+
+.contentDivFile h1 {
+    color: #000;
+
+    /* font-family: Inter; */
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.contentDivFile h2 {
+    color: #1F2027;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contentDivFile span {
+    color: #000;
+    /* font-family: Inter; */
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.contentDivFile ul li {
+    color: #000;
+    /* font-family: Inter; */
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 25px;
+    /* 187.5% */
+}
+
+.contentDivFile button {
+    padding: 12px 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 30px;
+    background: #F27A44;
+    color: #FFF;
+    /* font-family: Inter; */
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.titleBookCard{
+    font-weight: 900 !important;
+    font-family: 'Roboto', sans-serif;
+
+}
+.cardSecEditFile{
+    border-radius: 25px !important;
+    border: none;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.firstSvgCurveFile{
+    position: absolute;
+    top:150px;
+    left:110px;
+}
+.secondSvgCurveFile{
+    position: absolute;
+    top:220px;
+    left:610px;
+}
+.thirdSvgCurveFile{
+    position: absolute;
+    top:100px;
+    left:390px;
+}
+.fourthSvgCurveFile{
+    position: absolute;
+    top:590px;
+    left:490px;
+}
+.swapFileFileDivss{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    /* align-items: center; */
+}
+.swapFileFileSecondss{
+    /* margin-right: 140px; */
+    position: relative;
+}
+
+.carFormDivSecFile{
+    position: relative;
+    margin-top: 60px;
+}
+
+@media only screen and (max-width: 769px) and (min-width: 480px) {
+    /* .fourthFileFile{
+        position: relative;
+        margin-top:200px;
+    } */
+    .contentDivFile {
+        position: relative;
+        width: 50%;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        /* gap: 60px; */
+        /* margin: 30px 0 0 20px; */
+        margin: 200px 0 0 0 ;
+        padding: 0 0 0 20px;
+    
+    
+    }
+    .swapFileFileFirst{
+
+        width: 50%;
+        /* height: 30%; */
+        margin:48px 0 0 50px;
+    }
+    .swapFileFileImg{
+        /* width: 30%;
+        height: 30%; */
+        margin: 50px 0;
+    }
+    .firstSvgCurveFile{
+        position: absolute;
+        top:150px;
+        left:20px;
+    }
+    .secondSvgCurveFile{
+        position: absolute;
+        top:220px;
+        left:310px;
+    }
+    .thirdSvgCurveFile{
+        position: absolute;
+        top:100px;
+        left:190px;
+    }
+    .fourthSvgCurveFile{
+        position: absolute;
+        top:590px;
+        left:310px;
+    }
+    .swapFileFileSecondss{
+        margin-right: 90px;
+    }
+    .carFormDivSecFile{
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width:320px ) {
+    .swapFileFile{
+        flex-direction: column;
+    }
+    .contentDivFile {
+        position: relative;
+        width: 100%;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        /* gap: 60px; */
+        /* margin: 30px 0 0 20px; */
+        margin: 200px 0 0 0 ;
+        padding: 0 0 0 100px;
+    
+    
+    }
+    .swapFileFileFirst{
+
+        width: 100%;
+        margin:0 0 0 0;
+    }
+    /* .firstSvgCurve{
+        position: absolute;
+        top:150px;
+        left:20px;
+    } */
+    .secondSvgCurveFile{
+        position: absolute;
+        top:220px;
+        left:410px;
+    }
+    .thirdSvgCurveFile{
+        position: absolute;
+        top:100px;
+        left:290px;
+    }
+    .fourthSvgCurveFile{
+        position: absolute;
+        top:590px;
+        left:410px;
+    }
+    .swapFileFileDivss{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .swapFileFileSecondss{
+        margin-right: 140px;
+    }
+    .carFormDivSecFile{
+        margin-top: 60px;
+    }
+    .swapFileFileImgSecondss{
+        width: 450px;
+    }
+    .carFormDivSecFile{
+        margin-left: 50px;
+    }
+}
